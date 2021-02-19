@@ -12,7 +12,7 @@ class controller extends Package
 {
     protected $pkgHandle = 'd3_svg_image';
     protected $appVersionRequired = '5.7.1';
-    protected $pkgVersion = '1.1';
+    protected $pkgVersion = '1.1.1';
 
     public function getPackageName()
     {
@@ -28,6 +28,6 @@ class controller extends Package
     {
         $pkg = parent::install();
 
-        BlockType::installBlockTypeFromPackage('d3_svg_image', $pkg);
+        BlockType::installBlockType('d3_svg_image', $pkg);
     }
 }
