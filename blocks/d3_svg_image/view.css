@@ -1,0 +1,8 @@
+.d3-svg-image-link {
+	display: inline-block;
+	position: relative;
+}
+
+.d3-svg-image-link object {
+	pointer-events: none;
+}
